@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:h2:file:/app/data/alertdb
+      - SPRING_DATASOURCE_USERNAME=sa
+      - SPRING_DATASOURCE_PASSWORD=
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=none
+      - SPRING_SQL_INIT_MODE=always
+      - CORS_ALLOWED_ORIGINS=http://localhost,http://localhost:80,http://localhost:5173
+    volumes:
+      - ./data:/app/data
+    restart: always
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
