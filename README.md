@@ -23,7 +23,7 @@ Wymagania: Zainstalowany **Docker** oraz **Docker Desktop**.
 ## 🛠 Technologia
 
 ### Backend:
-* **Java 21** & **Spring Boot 3**
+* **Java 21** & **Spring Boot 4**
 * **Spring Data JPA** (Hibernate)
 * **Baza danych H2** (tryb plikowy - dane są utrwalane na dysku)
 * **Lombok** & **SLF4J** (logowanie operacji)
