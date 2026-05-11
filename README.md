@@ -59,4 +59,49 @@ Po uruchomieniu aplikacji, pełna dokumentacja techniczna endpointów (Swagger U
 * `/frontend` - Kod źródłowy LitElement, Dockerfile.
 * `/data` - Lokalizacja pliku bazy danych `alertdb`.
 * `docker-compose.yml` - Orkiestracja całego systemu.
+
+## 🖼️ Screeny
+
+**Dashboard**
+![Dashboard](docs/screenshots/01_main_window.jpg)
+
+**Edycja pojedyńczego szablonu**
+![Edycja pojedyńczego szablonu](docs/screenshots/02_detail_screen.jpg)
+
+
+**Potwierdzenie usuwania**
+![Potwierdzenie usuwania](docs/screenshots/03_confirm_delete.jpg)
+
+
+**Paginacja**
+![Paginacja](docs/screenshots/04_pagination.jpg)
+
+
+**Fitrowanie po nazwie szablonu**
+![Fitrowanie po nazwie szablonu](docs/screenshots/05_filtering.jpg)
+
+**Dodawanie nowego szablonu**
+![Dodawanie nowego szablonu](docs/screenshots/06_add_new_template.jpg)
+
+**Konsola H2 http://localhost:8080/h2-console/**
+![Konsola H2](docs/screenshots/07_konsola_h2.jpg)
+
+**Konsola H2  wykaz szablonów**
+![Konsola H2](docs/screenshots/08_konsola_h2.jpg)
+
+**Swagger http://localhost:8080/swagger-ui/**
+![Swagger](docs/screenshots/09_swagger_przyklad_z_dokumentacji.jpg)
+
+**Logi z przykładowego sygnału wejściowego** 
+![Logi](docs/screenshots/10_output_przyklad_z_dokumentacji.jpg)
+
+**Docker Desktop**
+![Opis zdjęcia](docs/screenshots/11_docker_desktop.jpg)
+
+
+**Frontend z Dockera http://localhost/**
+![Frontend z Dockera](docs/screenshots/12_frontend_docker.jpg)
+
+**Frontend lokalnie http://localhost:5173/**
+![Frontend lokalnie](docs/screenshots/13_frontend_local_default_port.jpg)
 ```
