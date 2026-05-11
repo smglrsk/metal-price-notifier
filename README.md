@@ -4,9 +4,9 @@ System do monitorowania cen metali szlachetnych z możliwością definiowania za
 
 ## 🚀 Szybki start
 
-1. cp .env.example .env
+1.     cp .env.example .env
 
-2. docker-compose up --build
+2.     docker-compose up --build
 
 
 
